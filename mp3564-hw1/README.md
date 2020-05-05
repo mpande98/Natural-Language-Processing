@@ -1,6 +1,6 @@
 1)	How to train and test classifier
 
-In both types of models I use kfold cross validation where n_splits = 5. The first step in training my classifier is feature extraction. In my n-gram model, for example, I used the bag of words representation CountVectorizer(), and used a combination of unigrams, bigrams, and trigrams. In the training process, the feature vector transfers the text into a feature of vector, and pairs of features vectors and labels are fed into the ML algorithm. The ML algorithm for abortion and gay rights, respectively, are Naive Bayes and SVM. The trained model can now make predictions on the test set. Using the array of true class labels, I can then evaluate the accuracy of my model’s classifier. 
+In both types of models I use kfold cross validation where n_splits = 5. The first step in training my classifier is feature extraction. In my n-gram model, for example, I used the bag of words representation CountVectorizer(), and used a combination of unigrams, bigrams, and trigrams. In the training process, the feature vector transfers the text into a feature vector, and pairs of features vectors and labels are fed into the ML algorithm. The ML algorithm for abortion and gay rights, respectively, are Naive Bayes and SVM. The trained model can now make predictions on the test set. Using the array of true class labels, I can then evaluate the accuracy of my model’s classifier. 
 
 
 2)	Special Features and Limitations:
